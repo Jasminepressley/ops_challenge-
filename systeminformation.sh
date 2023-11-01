@@ -2,6 +2,8 @@
 # Author:                             Jasmine Pressley
 # Date of latest revision:            10/31/2023
 # Purpose:                            lshw/grep
+# Resources                           Roger Huba (Demo)
+
 
 #main 
 echo "Evaluating this computer..."
@@ -12,3 +14,4 @@ echo "Display Adapter: "$(lshw | grep "*-display" -A 10)
 echo "Network Adapter: "$(lshw | grep "*-network" 15)
 echo "Evaluation complete."
 
+#End
