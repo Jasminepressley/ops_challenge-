@@ -1,4 +1,4 @@
-# Script Name:                        configuration.sh
+# Script Name:                        configuration.ps1
 # Author:                             Jasmine Pressley
 # Date of latest revision:            11/06/2023
 # Purpose:                            Ops Challenge 11- Automated Endpoint Configuration
