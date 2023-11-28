@@ -1,0 +1,28 @@
+!/bin/bash
+# Script Name:                        Append.sh
+# Author:                             Jasmine Pressley
+# Date of latest revision:            11/28/2023
+# Purpose:                            Ops-301d14: Ops Challenge 01
+# Resources:                          ChatGPT
+
+
+# Format the current date and time (YYYY-MM-DD_HH-MM-SS)
+current_date=$(date +"%Y-%m-%d_%H-%M-%S")
+
+# Define the filename with the current date and time
+filename="syslog_copy_$current_date.txt"
+
+# Copy /var/log/syslog to the current directory with the updated filename
+cp /var/log/syslog "./$filename" 2>/dev/null && echo "Copied syslog to $(pwd)/$filename" || echo "Error: Unable to copy syslog"
+
+#End 
+
+
+
+
+
+
+
+ 
+
+
