@@ -2,10 +2,9 @@
 
 # Script:                       Ops 301 Ops Chall ##
 # Author:                       Jasmine pressley
-# Date of latest revision:      MM/DD/YYYY
+# Date of latest revision:      11/29/2023
 # Purpose: xxx
 
-# WARNING: Take care to only perform this operation in user-created directories and/or in a VM. Changing permissions in system files/directories is not advised, as this can cause malfunctions in the OS.
 
 # In Unix the permissions are split up into three main parts:
   # The User is usually the original creator of the file/folder and is often referred to as the owner.
