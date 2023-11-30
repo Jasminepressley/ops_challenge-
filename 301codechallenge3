@@ -1,0 +1,21 @@
+!/bin/bash
+# Script Name:                        
+# Author:                             Jasmine Pressley
+# Date of latest revision:            11/29/2023
+# Purpose:                            Ops-301d14: Ops Challenge 03
+# Resources:                          Marcus Nogueira Code challenge 
+
+# Declaration of Varibles 
+read -p "Enter the directory path: " directory 
+read -p "Enter the permission number: " perms 
+
+# Declaration of functions 
+change_perms(){
+    cd "$directory" && chmod $perms *
+    ls -l
+}
+
+# Main 
+change_perms
+
+# End 
