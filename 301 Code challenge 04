@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# Script Name:                        Conditionals.sh
+# Author:                             Jasmine Pressley
+# Date of latest revision:            11/29/2023
+# Purpose:                            Ops-301d14: Ops Challenge 03
+# Resources:                          Refferenced Class Demo/ Used chat ChatGPT 
+
+while true; do
+    clear
+    echo "Do you prefer tea, coffee, or something else?"
+    echo "1. Tea"
+    echo "2. Coffee"
+    echo "3. Other"
+    echo "4. Exit"
+    read choice
+
+    if [[ $choice == 1 ]]; then
+        echo "Tea is soothing."
+        read -p "Press Enter to continue"
+    elif [[ $choice == 2 ]]; then
+        echo "Coffee fuels the day."
+        read -p "Press Enter to continue"
+    elif [[ $choice == 3 ]]; then
+        echo "Oh, you have a different preference!"
+        read -p "What is your beverage of choice? " beverage
+        echo "Ah, $beverage, an excellent choice!"
+        read -p "Press Enter to continue"
+    elif [[ $choice == 4 ]]; then
+        echo "Goodbye for now!"
+        exit 0
+    else
+        echo "Invalid selection."
+        read -p "Press Enter to continue"
+    fi
+done
+
