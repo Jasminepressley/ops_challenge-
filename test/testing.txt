@@ -1,0 +1,11 @@
+1.love	
+2.happy
+3.funny
+4.money
+5.wisdom 
+6.peace
+7.thrive
+8.boss
+9.life
+10.fun
+
